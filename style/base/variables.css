@@ -1,0 +1,39 @@
+:root {
+    /* generic */
+    --bg-dark: #11346F;
+    --bg-gradient: linear-gradient(120deg, #AECCFF -20%, #197AFF 165%);
+    --cyan: #CEE2FF;
+    --cyan-500: #AECCFF80;
+    --cyan-100: #AECCFF1A;
+    /* buttons */
+    --btn-main: #197AFF;
+    --btn-secondary: #4D91CF26;
+    /* navbar */
+    --nav-text-active: #11346F;
+    --nav-text-inactive: #4b6792;
+    /* text */
+    --text-primary: #197AFF;
+    --text-secondary: #11346F;
+    --text-default: #262626;
+}
+
+button {
+    background-color: var(--btn-main);
+    color: #FFF;
+    padding: 10px 40px;
+
+    border-radius: 60px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+button:focus {
+    box-shadow: 0 0 0 1px #000;
+}
