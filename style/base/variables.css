@@ -5,6 +5,9 @@
     --cyan: #CEE2FF;
     --cyan-500: #AECCFF80;
     --cyan-100: #AECCFF1A;
+    --green-300: #57AC73;
+    --green-200: #99D298;
+    --green-100: #BCF5E3;
     /* buttons */
     --btn-main: #197AFF;
     --btn-secondary: #4D91CF26;
@@ -15,6 +18,12 @@
     --text-primary: #197AFF;
     --text-secondary: #11346F;
     --text-default: #262626;
+    --text-gray: #787979;
+    /* offers */
+    --offer-primary: #FBFCFF;
+    --offer-secondary : #D2E3FD;
+    --offer-border-primary: #197AFF;
+    --offer-border-seconday: #398BFE;
 }
 
 button {
