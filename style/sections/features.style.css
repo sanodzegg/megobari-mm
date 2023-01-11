@@ -1,0 +1,202 @@
+.features-banner {
+    width: 100%;
+    background-color: var(--bg-dark);
+    padding: 25px 0;
+    margin-top: 35px;
+}
+
+.features-banner-inner {
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featureWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.featureWrapper h4 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFF;
+    margin-left: 15px;
+}
+
+.featuresIconWrapper {
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+
+    background-color: #FFF;
+    position: relative;
+}
+
+.featuresIconWrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features {
+    width: 100%;
+    max-width: unset;
+    background: var(--bg-gradient);
+    padding: 0;
+    margin: 0;
+}
+
+.featuresInner {
+    max-width: 1250px;
+    padding: 30px 20px 50px 20px;
+    margin: 0 auto;
+}
+
+.featuresInner .heading {
+    width: 100%;
+    text-align: center;
+}
+
+.featuresInner .heading h3 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 50px;
+    color: var(--text-secondary);
+}
+
+.featuresInner .heading h1 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #FFF;
+}
+
+.offersWrapper {
+    margin-top: 50px;
+}
+
+.offer {
+    max-width: 370px;
+    width: 370px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid var(--offer-border-seconday);
+    padding: 25px 20px;
+    background-color: var(--offer-secondary);
+}
+
+.offer.primary {
+    border: 1px solid var(--offer-border-primary);
+    background-color: var(--offer-primary);
+}
+
+.offer img {
+    width: 135px;
+    height: 100px;
+
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.offer h3, .offer h2, .offer h6 {
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.offer h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    margin-top: 130px;
+}
+
+.offer h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.offer h6, .offerGuarantee p {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.offerGuarantee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.offerGuarantee img, .afterpay img {
+    position: unset;
+    transform: unset;
+}
+
+.offerGuarantee img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.offerGuarantee p {
+    line-height: unset;
+    margin-top: 2px;
+    font-size: 12px;
+    color: var(--text-secondary); 
+}
+
+.afterpayWrapper {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 5px;
+}
+
+.afterpayWrapper p {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.afterpayWrapper p b {
+    font-weight: 700;
+}
+
+.afterpay {
+    padding: 3px 10px;
+    width: fit-content;
+    border-radius: 40px;
+    background-color: var(--green-100);
+}
+
+.afterpay img {
+    width: 50.5px;
+    height: 9.5px;
+}
+
+.offer button {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 60px;
+    box-shadow: 0px 7px 14px rgba(25, 122, 255, 0.5);
+    padding: 15px 85px;
+}
