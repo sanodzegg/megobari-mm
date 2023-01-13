@@ -1,13 +1,19 @@
 :root {
     /* generic */
     --bg-dark: #11346F;
+    --bg-medium: #194081;
+    --bg-light: #31548E;
     --bg-gradient: linear-gradient(120deg, #AECCFF -20%, #197AFF 165%);
     --cyan: #CEE2FF;
-    --cyan-500: #AECCFF80;
+    --cyan-300: #AECCFF;
+    --cyan-200: #AECCFF80;
     --cyan-100: #AECCFF1A;
-    --green-300: #57AC73;
-    --green-200: #99D298;
+    --green-500: #89C25F;
+    --green-400: #57AC73;
+    --green-300: #99D298;
+    --green-200: #BFF5BE;
     --green-100: #BCF5E3;
+    --purple-100: #AC5780;
     /* buttons */
     --btn-main: #197AFF;
     --btn-secondary: #4D91CF26;
@@ -20,6 +26,7 @@
     --text-default: #262626;
     --text-gray: #787979;
     /* offers */
+    --offer-gradient: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
     --offer-primary: #FBFCFF;
     --offer-secondary : #D2E3FD;
     --offer-border-primary: #197AFF;
