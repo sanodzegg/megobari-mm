@@ -14,6 +14,8 @@
     <!-- section styles -->
     <link rel="stylesheet" href="./style/sections/mm.style.css">
     <link rel="stylesheet" href="./style/sections/features.style.css">
+    <link rel="stylesheet" href="./style/sections/reviews.style.css">
+    <link rel="stylesheet" href="./style/sections/faq.style.css">
     
     <script src="./scripts/index.js" defer></script>
 </head>
@@ -42,7 +44,7 @@
             <div class="heading">
                 <h2>All-in-one massager that works like <span>magic!</span></h2>
                 <div class="strokes">
-                    <img src="./assets/shapes/shape-strokes.svg" alt="strokes shape">
+                    <img src="./assets/shapes/shape-strokes.svg" alt="strokes">
                 </div>
                 <div class="arrow">
                     <img src="./assets/shapes/shape-arrow.svg" alt="arrow shape">
@@ -148,26 +150,297 @@
                 <div class="heading">
                     <h3>Buy More & Save More!</h3>
                     <h1>Limited-Time Offer</h1>
-                    <img src="./assets/shapes/strokes-white.svg" alt="white strokes shape">
+                    <img src="./assets/shapes/strokes-white.svg" alt="white strokes">
                 </div>
                 <div class="offersWrapper">
                     <div class="offer">
-                        <img src="./assets/images/image210.png" alt="single massager">
-
-                        <h3>Buy MagicMassage™</h3>
-                        <h2>$69.95</h2>
-                        <h6>+ Free Shipping</h6>
-                        <div class="offerGuarantee">
-                            <img src="./assets/icons/verified-framed.svg" alt="verification icon">
-                            <p>30-Day Money Back</p>
-                        </div>
-                        <div class="afterpayWrapper">
-                            <p>or 4 interest-free installments of <b>$17.50</b> by</p>
-                            <div class="afterpay">
-                                <img src="./assets/shapes/afterpay.svg" alt="afterpay icon">
+                        <img class="offerProductImg" src="./assets/images/image210.png" alt="single massager">
+                        <div class="offerInner">
+                            <h3>Buy MagicMassage™</h3>
+                            <h2>$69.95</h2>
+                            <h6>+ Free Shipping</h6>
+                            <div class="offerGuarantee">
+                                <img src="./assets/icons/verified-framed.svg" alt="verification icon">
+                                <p>30-Day Money Back</p>
+                            </div>
+                            <div class="afterpayWrapper">
+                                <p>or 4 interest-free installments of <b>$17.50</b> by</p>
+                                <div class="afterpay">
+                                    <img src="./assets/shapes/afterpay.svg" alt="afterpay icon">
+                                </div>
+                            </div>
+                            <button>get your magic</button>
+                            <div class="paymentsWrapper">
+                                <img src="./assets/icons/payment/amex.svg" alt="amex icon">
+                                <img src="./assets/icons/payment/apple-pay.svg" alt="apple pay icon">
+                                <img src="./assets/icons/payment/google-pay.svg" alt="google pay icon">
+                                <img src="./assets/icons/payment/maestro.svg" alt="maestro icon">
+                                <img src="./assets/icons/payment/mastercard.svg" alt="mastercard icon">
+                                <img src="./assets/icons/payment/paypal.svg" alt="paypal icon">
+                                <img src="./assets/icons/payment/visa.svg" alt="visa icon">
                             </div>
                         </div>
-                        <button>get your magic</button>
+                    </div>
+                    <div class="offer mp">
+                        <img class="offerProductImg" src="./assets/images/image224.png" alt="single massager">
+                        <div class="offerInner">
+                            <div class="tag">MOST POPULAR</div>
+                            <p class="promo">Buy 2 + <span>Get 1 Free</span></p>
+                            <img src="./assets/shapes/shape-strokes.svg" alt="strokes" class="strokes">
+                            <img src="./assets/shapes/shape-arrow.svg" alt="arrow" class="arrow">
+                            <div class="sale">
+                                <div>
+                                    <h2>$139.90</h2>
+                                    <h6>+ Free Shipping</h6>
+                                </div>
+                                <h2 class="prevPrice">
+                                    $209.85
+                                </h2>
+                            </div>
+                            <div class="afterpayWrapper">
+                                <p>or 4 interest-free installments of <b>$34.99</b> by</p>
+                                <div class="afterpay">
+                                    <img src="./assets/shapes/afterpay.svg" alt="afterpay icon">
+                                </div>
+                            </div>
+                            <div class="offerSaleWrapper">
+                                <div class="offerGuarantee">
+                                    <img src="./assets/icons/verified-framed.svg" alt="verification icon">
+                                    <p>30-Day Money Back</p>
+                                    <div class="offerSaving"><p>SAVE $70 - 33% OFF!</p></div>
+                                </div>
+                                <p class="remaining">6 orders at this price remaining</p>
+                            </div>
+                            <button>get your magic</button>
+                            <div class="paymentsWrapper">
+                                <img src="./assets/icons/payment/amex.svg" alt="amex icon">
+                                <img src="./assets/icons/payment/apple-pay.svg" alt="apple pay icon">
+                                <img src="./assets/icons/payment/google-pay.svg" alt="google pay icon">
+                                <img src="./assets/icons/payment/maestro.svg" alt="maestro icon">
+                                <img src="./assets/icons/payment/mastercard.svg" alt="mastercard icon">
+                                <img src="./assets/icons/payment/paypal.svg" alt="paypal icon">
+                                <img src="./assets/icons/payment/visa.svg" alt="visa icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer bv">
+                        <img class="offerProductImg" src="./assets/images/image230.png" alt="single massager">
+                        <div class="offerInner">
+                            <div class="tag">Best Value</div>
+                            <p class="promo">Buy 2 + <span>Get 1 Free</span></p>
+                            <img src="./assets/shapes/shape-strokes.svg" alt="strokes" class="strokes">
+                            <img src="./assets/shapes/shape-arrow.svg" alt="arrow" class="arrow">
+                            <div class="sale">
+                                <div>
+                                    <h2>$209.85</h2>
+                                    <h6>+ Free Shipping</h6>
+                                </div>
+                                <h2 class="prevPrice">
+                                    $349.95
+                                </h2>
+                            </div>
+                            <div class="afterpayWrapper">
+                                <p>or 4 interest-free installments of <b>$52.50</b> by</p>
+                                <div class="afterpay">
+                                    <img src="./assets/shapes/afterpay.svg" alt="afterpay icon">
+                                </div>
+                            </div>
+                            <div class="offerSaleWrapper">
+                                <div class="offerGuarantee">
+                                    <img src="./assets/icons/verified-framed.svg" alt="verification icon">
+                                    <p>30-Day Money Back</p>
+                                    <div class="offerSaving"><p>SAVE $140 - 40% OFF!</p></div>
+                                </div>
+                                <div class="remainingWrapper">
+                                    <img src="./assets/icons/sandclock.svg" alt="sandclock">
+                                    <p class="remaining">6 orders at this price remaining</p>
+                                </div>
+                            </div>
+                            <button>get your magic</button>
+                            <div class="paymentsWrapper">
+                                <img src="./assets/icons/payment/amex.svg" alt="amex icon">
+                                <img src="./assets/icons/payment/apple-pay.svg" alt="apple pay icon">
+                                <img src="./assets/icons/payment/google-pay.svg" alt="google pay icon">
+                                <img src="./assets/icons/payment/maestro.svg" alt="maestro icon">
+                                <img src="./assets/icons/payment/mastercard.svg" alt="mastercard icon">
+                                <img src="./assets/icons/payment/paypal.svg" alt="paypal icon">
+                                <img src="./assets/icons/payment/visa.svg" alt="visa icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="heading">
+                <h2>Hear what our customers <span>are saying</span></h2>
+                <img src="./assets/shapes/shape-strokes.svg" alt="strokes">
+            </div>
+            <div class="total">
+                <div class="totalReviews">
+                    <div class="totalIntoStars">
+                        <img src="./assets/shapes/star.svg" alt="star">
+                        <img src="./assets/shapes/star.svg" alt="star">
+                        <img src="./assets/shapes/star.svg" alt="star">
+                        <img src="./assets/shapes/star.svg" alt="star">
+                        <img src="./assets/shapes/star.svg" alt="star">
+                    </div>
+                    <h6>131 TOTAL REVIEWS</h6>
+                </div>
+                <button>Write a review</button>
+            </div>
+            <div class="reviewsWrapper">
+                <div class="review">
+                    <div class="reviewImgWrapper">
+                        <img src="./assets/images/image45.png" alt="reviewer avatar">
+                    </div>
+                    <div class="reviewerStats">
+                        <div class="reviewer">
+                            <h6 class="reviewerUsername">
+                                Megan K.
+                            </h6>
+                            <div class="reviewStars">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="reviewerVerification">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.49999 0.583496C4.13791 0.583496 0.583328 4.13808 0.583328 8.50016C0.583328 12.8622 4.13791 16.4168 8.49999 16.4168C12.8621 16.4168 16.4167 12.8622 16.4167 8.50016C16.4167 4.13808 12.8621 0.583496 8.49999 0.583496ZM12.2842 6.67933L7.79541 11.1681C7.68458 11.2789 7.53416 11.3422 7.37583 11.3422C7.21749 11.3422 7.06708 11.2789 6.95624 11.1681L4.71583 8.92766C4.48624 8.69808 4.48624 8.31808 4.71583 8.0885C4.94541 7.85891 5.32541 7.85891 5.55499 8.0885L7.37583 9.90933L11.445 5.84016C11.6746 5.61058 12.0546 5.61058 12.2842 5.84016C12.5137 6.06975 12.5137 6.44183 12.2842 6.67933Z" fill="#197AFF"/>
+                            </svg>
+                            <p>VERIFIED BUYER</p>
+                        </div>
+                    </div>
+                    <p class="reviewParagraph">
+                        I love the MagicMassage! It's simple to use, does not mess up my curly hair as many other similar products do, and the massage is relaxing as it is refreshing. I feel like it has been made for my scalp! It just feels right.
+                    </p>
+                </div>
+                <div class="review">
+                    <div class="reviewImgWrapper">
+                        <img src="./assets/images/image51.png" alt="reviewer avatar">
+                    </div>
+                    <div class="reviewerStats">
+                        <div class="reviewer">
+                            <h6 class="reviewerUsername">
+                                Megan K.
+                            </h6>
+                            <div class="reviewStars">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="reviewerVerification">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.49999 0.583496C4.13791 0.583496 0.583328 4.13808 0.583328 8.50016C0.583328 12.8622 4.13791 16.4168 8.49999 16.4168C12.8621 16.4168 16.4167 12.8622 16.4167 8.50016C16.4167 4.13808 12.8621 0.583496 8.49999 0.583496ZM12.2842 6.67933L7.79541 11.1681C7.68458 11.2789 7.53416 11.3422 7.37583 11.3422C7.21749 11.3422 7.06708 11.2789 6.95624 11.1681L4.71583 8.92766C4.48624 8.69808 4.48624 8.31808 4.71583 8.0885C4.94541 7.85891 5.32541 7.85891 5.55499 8.0885L7.37583 9.90933L11.445 5.84016C11.6746 5.61058 12.0546 5.61058 12.2842 5.84016C12.5137 6.06975 12.5137 6.44183 12.2842 6.67933Z" fill="#197AFF"/>
+                            </svg>
+                            <p>VERIFIED BUYER</p>
+                        </div>
+                    </div>
+                    <p class="reviewParagraph">
+                        I could not be happier with this product! I use it at night to relax and it does wonders for me. My kids and dog also love it, they’ll sit and let me massage their scalp for hours. At first my Labrador was hesitant not knowing what it was, but now she gets excited as soon as I take the MagicMassage out.
+                    </p>
+                </div>
+                <div class="review">
+                    <div class="reviewImgWrapper">
+                        <img src="./assets/images/image52.png" alt="reviewer avatar">
+                    </div>
+                    <div class="reviewerStats">
+                        <div class="reviewer">
+                            <h6 class="reviewerUsername">
+                                Megan K.
+                            </h6>
+                            <div class="reviewStars">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="reviewerVerification">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.49999 0.583496C4.13791 0.583496 0.583328 4.13808 0.583328 8.50016C0.583328 12.8622 4.13791 16.4168 8.49999 16.4168C12.8621 16.4168 16.4167 12.8622 16.4167 8.50016C16.4167 4.13808 12.8621 0.583496 8.49999 0.583496ZM12.2842 6.67933L7.79541 11.1681C7.68458 11.2789 7.53416 11.3422 7.37583 11.3422C7.21749 11.3422 7.06708 11.2789 6.95624 11.1681L4.71583 8.92766C4.48624 8.69808 4.48624 8.31808 4.71583 8.0885C4.94541 7.85891 5.32541 7.85891 5.55499 8.0885L7.37583 9.90933L11.445 5.84016C11.6746 5.61058 12.0546 5.61058 12.2842 5.84016C12.5137 6.06975 12.5137 6.44183 12.2842 6.67933Z" fill="#197AFF"/>
+                            </svg>
+                            <p>VERIFIED BUYER</p>
+                        </div>
+                    </div>
+                    <p class="reviewParagraph">
+                        It arrived in perfect condition, and the packaging was immaculate. It felt amazing on my head, like someone was massaging it with the perfect pressure and speed. My long hair doesn't get caught in it at all, and I feel relaxed after using it. Best purchase I've made in a LONG time!
+                    </p>
+                </div>
+                <div class="review">
+                    <div class="reviewImgWrapper">
+                        <img src="./assets/images/image53.png" alt="reviewer avatar">
+                    </div>
+                    <div class="reviewerStats">
+                        <div class="reviewer">
+                            <h6 class="reviewerUsername">
+                                Megan K.
+                            </h6>
+                            <div class="reviewStars">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                                <img src="./assets/shapes/star.svg" alt="star">
+                            </div>
+                        </div>
+                        <div class="reviewerVerification">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.49999 0.583496C4.13791 0.583496 0.583328 4.13808 0.583328 8.50016C0.583328 12.8622 4.13791 16.4168 8.49999 16.4168C12.8621 16.4168 16.4167 12.8622 16.4167 8.50016C16.4167 4.13808 12.8621 0.583496 8.49999 0.583496ZM12.2842 6.67933L7.79541 11.1681C7.68458 11.2789 7.53416 11.3422 7.37583 11.3422C7.21749 11.3422 7.06708 11.2789 6.95624 11.1681L4.71583 8.92766C4.48624 8.69808 4.48624 8.31808 4.71583 8.0885C4.94541 7.85891 5.32541 7.85891 5.55499 8.0885L7.37583 9.90933L11.445 5.84016C11.6746 5.61058 12.0546 5.61058 12.2842 5.84016C12.5137 6.06975 12.5137 6.44183 12.2842 6.67933Z" fill="#197AFF"/>
+                            </svg>
+                            <p>VERIFIED BUYER</p>
+                        </div>
+                    </div>
+                    <p class="reviewParagraph">
+                        I could not love this massager more. I use it for scalp stimulation during showers as it feels great to massage with shampoo. I love that it's light enough to carry it with me when I travel and comfortable to use. The product looks luxurious and would recommend this to anyone looking for a high quality head massager.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="heading">
+                <h2>Frequently Asked <span>Questions</span></h2>
+                <img src="./assets/shapes/strokes-white.svg" alt="white strokes">
+            </div>
+            <div class="faqInner">
+                <div class="faqInnerImgWrapper">
+                    <img src="./assets/images/image45bigger.png" alt="faq decorative">
+                </div>
+                <div class="faqWrapper">
+                    <div class="questionWrapper active">
+                        <div class="question">
+                            <p>How long does the battery last fully charged?</p>
+                            <img src="./assets/shapes/collapse.svg" alt="collapse">
+                        </div>
+                        <div class="answer">The MagicMassage™ can last up to 6 hours when it's fully charged.</div>
+                    </div>
+                    <div class="questionWrapper">
+                        <div class="question">
+                            <p>Can I use it in the shower?</p>
+                            <img src="./assets/shapes/collapse.svg" alt="collapse">
+                        </div>
+                        <div class="answer"></div>
+                    </div>
+                    <div class="questionWrapper">
+                        <div class="question">
+                            <p>What is included in the package</p>
+                            <img src="./assets/shapes/collapse.svg" alt="collapse">
+                        </div>
+                        <div class="answer"></div>
+                    </div>
+                    <div class="questionWrapper">
+                        <div class="question">
+                            <p>Is the MagicMassage™ designed only for the head?</p>
+                            <img src="./assets/shapes/collapse.svg" alt="collapse">
+                        </div>
+                        <div class="answer"></div>
                     </div>
                 </div>
             </div>

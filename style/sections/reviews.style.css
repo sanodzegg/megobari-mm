@@ -1,0 +1,155 @@
+.reviews {
+    max-width: 1230px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.reviews .heading {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 55px auto;
+    position: relative;
+}
+
+.reviews .heading h2 {
+    font-size: 37px;
+    line-height: 48px;
+}
+
+.reviews .heading img {
+    width: 225px;
+    position: absolute;
+    right: 260px;
+}
+
+.total {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.totalReviews {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 10px;
+}
+
+.totalReviews h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+.totalIntoStars img {
+    margin-left: 5px;
+    transform: scale(1.3);
+}
+
+.totalIntoStars img:first-child {
+    margin: 0;
+}
+
+.total button {
+    background-color: transparent;
+    border: 1px solid #213786;
+    color: #3A3075;
+    border-radius: 5px;
+
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 5px 20px;
+    text-transform: none;
+}
+
+.reviewsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.review {
+    box-sizing: border-box;
+    max-width: 285px;
+    height: 470px;
+    border: 1px solid #E9E9E9;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.reviewImgWrapper {
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.reviewImgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviewerStats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    column-gap: 30px;
+    padding: 11px 15px 10px 15px;
+}
+
+.reviewerVerification {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 8.5px;
+}
+
+.reviewerVerification svg path {
+    fill: var(--green-500);
+}
+
+.reviewerVerification p {
+    color: var(--green-500);
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.reviewer h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-secondary);
+    margin-left: 2px;
+}
+
+.reviewStars {
+    margin-top: 5px;
+}
+
+.reviewStars img {
+    transform: scale(1.1);
+}
+
+.reviewStars img:first-child {
+    margin: 0;
+}
+
+.reviewParagraph {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 25px;
+    color: var(--text-default);
+
+    padding: 0 15px 20px 15px;
+}
