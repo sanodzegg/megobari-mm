@@ -5,7 +5,7 @@
 }
 
 .reviews .heading {
-    width: 100%;
+    width: fit-content;
     text-align: center;
     margin: 50px auto 55px auto;
     position: relative;
@@ -19,7 +19,7 @@
 .reviews .heading img {
     width: 225px;
     position: absolute;
-    right: 260px;
+    right: -15px;
 }
 
 .total {
@@ -70,13 +70,24 @@
 }
 
 .reviewsWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: relative;
     margin-bottom: 60px;
 }
 
+.innerReviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.innerReviews * {
+    user-select: none;
+}
+
 .review {
+    pointer-events: none;
+
     box-sizing: border-box;
     max-width: 285px;
     height: 470px;
@@ -152,4 +163,8 @@
     color: var(--text-default);
 
     padding: 0 15px 20px 15px;
+}
+
+.swiperDots {
+    display: none;
 }

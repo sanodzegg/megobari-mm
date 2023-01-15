@@ -386,3 +386,7 @@
 .remainingWrapper .sandClock {
     mix-blend-mode: darken;
 }
+
+.mobile, .remainingMobile {
+    display: none;
+}

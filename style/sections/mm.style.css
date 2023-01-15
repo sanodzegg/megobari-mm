@@ -4,6 +4,10 @@
     margin-top: 60px;
 }
 
+.why-mm .mobile {
+    display: none;
+}
+
 .heading h2 {
     font-size: 42px;
     line-height: 55px;
@@ -126,6 +130,7 @@
     height: unset;
 
     font-size: 18px;
+    text-transform: capitalize;
 }
 
 .priceButton {

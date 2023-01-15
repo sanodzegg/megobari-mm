@@ -59,7 +59,6 @@
 
 .questionWrapper {
     width: 650px;
-    height: 62px;
     
     overflow: hidden;
 
@@ -87,10 +86,6 @@
 
 .question img {
     cursor: pointer;
-}
-
-.questionWrapper.active {
-    height: 125px;
 }
 
 .questionWrapper.active .question {
