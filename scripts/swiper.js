@@ -135,7 +135,7 @@ const swiper = () => {
         const realWidth = reviewsWrapperWidth - lastNodeWidth;
 
         const vwSize = window.innerWidth;
-        const dots = Math.floor(realWidth / vwSize);
+        const dots = Math.ceil(realWidth / vwSize);
 
         for(let i = 0; i < dots; i++) {
             const dotNode = document.createElement("div");
