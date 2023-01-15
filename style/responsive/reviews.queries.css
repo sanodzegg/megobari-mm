@@ -1,0 +1,112 @@
+@media screen and (max-width: 1250px) {
+    .innerReviews {
+        flex-wrap: wrap;
+        row-gap: 30px;
+
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 738px) {
+    .reviews .heading img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .reviewsWrapper {
+        height: 540px;
+        overflow: hidden;
+
+        margin-bottom: 0;
+    }
+    .innerReviews {
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .innerReviews .review {
+        min-width: 285px;
+    }
+    .swiperDots {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 10px;
+
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .dot {
+        width: 14px;
+        height: 14px;
+
+        border-radius: 50%;
+        background-color: #CBCED6;
+        cursor: pointer;
+    }
+    .dot.active {
+        background-color: var(--btn-main);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reviews {
+        padding: 0 !important;
+    }
+    .reviews .heading {
+        margin-top: 5vw;
+        margin-bottom: 8.333vw;
+    }
+    .reviews .heading h2 {
+        font-weight: 600;
+        font-size: 7vw;
+        line-height: 7.973vw;
+
+        margin: 0 10px !important;
+    }
+    .total {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .innerReviews {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .reviews .heading img {
+        display: unset;
+        right: 31vw;
+        width: 37.375vw;
+        bottom: -2.661vw;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .total {
+        column-gap: 10px;
+        padding: 0 10px;
+    }
+    .totalReviews {
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .total button {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .reviews .heading img {
+        display: none;
+    }
+}

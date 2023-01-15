@@ -1,0 +1,188 @@
+@media screen and (max-width: 1130px) {
+    .why-mm .content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-mm .heading {
+        width: auto;
+        text-align: center;
+    }
+    .why-mm .content .content-col p {
+        text-align: center;
+    }
+    .heading .strokes, .heading .arrow {
+        display: none;
+    }
+    .contentReview {
+        display: none;
+    }
+    .properties {
+        margin: 0;
+        margin-top: 35px;
+    }
+    .contentBtnWrapper {
+        margin: 0 auto;
+    }
+    .contentBtnWrapper button {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 725px) { 
+    .properties {
+        background-color: transparent;
+        border: unset;
+        
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .property {
+        padding-left: 0 !important;
+    }
+    .property h6 {
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 700;
+    }
+    .property::before {
+        content: '';
+        display: none;
+    }
+    .property ul {
+        display: none;
+    }
+    .contentBtnWrapper button {
+        margin: 0;
+        
+        font-size: 16px;
+        line-height: 21.25px;
+        font-weight: 700;
+    }
+    .contentBtnWrapper .priceButton {
+        margin-top: 15px;
+    }
+    .why-mm .heading h2 {
+        font-size: 6.3vw;
+        line-height: 7.586vw;
+    }
+    .why-mm .content .content-col .productImg {
+        margin-top: 3.448vw;
+        width: 42vw;
+    }
+    .why-mm .content .content-col {
+        margin-top: 2.069vw;
+    }
+    .why-mm .content .content-col p:not(.mobile) {
+        display: none;
+    }
+    .why-mm p.mobile {
+        font-size: 2.483vw !important;
+        line-height: 3.862vw !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .why-mm .content .content-col p:not(.contentReview *) {
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .why-mm .content .content-col:nth-child(2) {
+        align-self: flex-end;
+    }
+    .why-mm {
+        position: relative;
+        padding: 0 10px !important;
+        padding-top: 20px !important;
+        padding-bottom: 90px !important;
+    }
+    .why-mm .heading {
+        position: absolute;
+        margin: 0;
+
+        max-width: 44vw;
+        text-align: start;
+
+        top: 2.704vw;
+        left: 3.704vw;
+    }
+    .why-mm .heading h2 {
+        font-size: 6vw;
+        line-height: 7.246vw;
+        font-weight: 500;
+    }
+    .heading .strokes, .heading .arrow {
+        display: block;
+        width: fit-content;
+    }
+    .heading .strokes img {
+        width: 21.519vw;
+    }
+    .heading .arrow img {
+        width: 19.807vw;
+    }
+    .heading .strokes {
+        top: 28.3vw;
+        right: 0;
+        left: 0px;
+    }
+    .heading .arrow {
+        transform: rotate(185deg) scaleX(-1);
+        top: 20vw;
+        right: 0;
+        left: 25vw;
+    }
+    .why-mm .content .content-col p {
+        margin-top: 6.481vw;
+    }
+    .contentReview {
+        position: absolute;
+        display: flex;
+
+        left: 50%;
+        top: 88%;
+        margin: 0;
+
+        transform: translate(-50%);
+
+        width: 380px;
+        box-sizing: border-box;
+    }
+    .contentReview p {
+        display: block !important;
+        margin: 0 !important;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .verification svg {
+        margin: 0 5px 0 15px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .contentReview {
+        width: 91.566vw;
+    }
+    .properties {
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .contentBtnWrapper button {
+        padding: 20px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .contentReview {
+        justify-content: center;
+    }
+    .contentReview .buyerAvatarWrapper {
+        display: none;
+    }
+}
