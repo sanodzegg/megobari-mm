@@ -1,0 +1,137 @@
+.faq {
+    width: 100%;
+    background-color: var(--bg-dark);
+    max-width: unset;
+    margin: 0;
+    padding: 35px 0 70px 0;
+}
+
+.faq .heading {
+    width: fit-content;
+    margin: 0 auto;
+
+    margin-bottom: 65px;
+    position: relative;
+}
+
+.faq .heading h2, .faq .heading h2 span {
+    color: #FFF;
+    text-align: center;
+    font-size: 37px;
+}
+
+.faq .heading img {
+    position: absolute;
+    left: 310px;
+    width: 225px;
+}
+
+.faqInner {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 412px;
+}
+
+.faqInnerImgWrapper {
+    width: 475px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.faqInnerImgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faqWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.questionWrapper {
+    width: 650px;
+    
+    overflow: hidden;
+
+    transition: all .3s ease-in-out;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 40px 20px 30px;
+
+    background-color: var(--bg-medium);
+    border-radius: 10px;
+    border: 1px solid var(--bg-light);
+}
+
+.question p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--cyan-300);
+}
+
+.question img {
+    cursor: pointer;
+}
+
+.questionWrapper.active .question {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.questionWrapper.active .question p {
+    color: #FFF;
+}
+
+.questionWrapper.active .question img {
+    transform: rotate(180deg);
+}
+
+.answer {
+    display: none;
+
+    padding: 20px 100px 20px 30px;
+
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--cyan-300);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid var(--bg-light);
+    border-top: unset;
+}
+
+.questionWrapper.active .answer {
+    display: block;
+}
+
+.seeAll {
+    display: flex;
+    margin-top: 25px;
+}
+
+.seeAll p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seeAll img {
+    margin-left: 10px;
+}

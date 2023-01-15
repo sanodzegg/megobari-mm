@@ -1,0 +1,16 @@
+@media screen and (max-width: 970px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    header button {
+        display: none;
+    }
+    
+    header {
+        justify-content: center !important;
+        padding: 15px 0 !important;
+    }
+}

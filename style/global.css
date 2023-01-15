@@ -1,0 +1,89 @@
+@import url("./base/variables.css");
+
+@import url("./responsive/navbar.queries.css");
+@import url("./responsive/mm.queries.css");
+@import url("./responsive/features.queries.css");
+@import url("./responsive/reviews.queries.css");
+@import url("./responsive/faq.queries.css");
+
+* {
+    font-family: 'Mont' !important;
+}
+
+.banner {
+    width: 100%;
+    background-color: var(--bg-dark);
+    text-align: center;
+    padding: 5px 0;
+}
+
+.banner h5 {
+    font-weight: 600;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 30px;
+
+    display: inline-block;
+    margin: 0 7.5px;
+}
+
+.headerContainer {
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    max-width: unset;
+    width: 100%;
+
+    backdrop-filter: blur(14px);
+    background: rgba(245, 253, 255, 0.8);
+
+    z-index: 20;
+}
+
+.sticky::after {
+    display: none;
+}
+
+.navlist li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    color: var(--nav-text-inactive);
+}
+
+.navlist li a.active {
+    font-weight: 600;
+    color: var(--nav-text-active);
+}
+
+header button {
+    height: 45px;
+}
+
+section {
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+}

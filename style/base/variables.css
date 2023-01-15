@@ -1,0 +1,55 @@
+:root {
+    /* generic */
+    --bg-dark: #11346F;
+    --bg-medium: #194081;
+    --bg-light: #31548E;
+    --bg-gradient: linear-gradient(120deg, #AECCFF -20%, #197AFF 165%);
+    --cyan: #CEE2FF;
+    --cyan-300: #AECCFF;
+    --cyan-200: #AECCFF80;
+    --cyan-100: #AECCFF1A;
+    --green-500: #89C25F;
+    --green-400: #57AC73;
+    --green-300: #99D298;
+    --green-200: #BFF5BE;
+    --green-100: #BCF5E3;
+    --purple-100: #AC5780;
+    /* buttons */
+    --btn-main: #197AFF;
+    --btn-secondary: #4D91CF26;
+    /* navbar */
+    --nav-text-active: #11346F;
+    --nav-text-inactive: #4b6792;
+    /* text */
+    --text-primary: #197AFF;
+    --text-secondary: #11346F;
+    --text-default: #262626;
+    --text-gray: #787979;
+    /* offers */
+    --offer-gradient: linear-gradient(180deg, #FFFFFF 0%, #D7E6FF 100%);
+    --offer-primary: #FBFCFF;
+    --offer-secondary : #D2E3FD;
+    --offer-border-primary: #197AFF;
+    --offer-border-seconday: #398BFE;
+}
+
+button {
+    background-color: var(--btn-main);
+    color: #FFF;
+    padding: 10px 40px;
+
+    border-radius: 60px;
+    border: none;
+    outline: none;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+button:focus {
+    box-shadow: 0 0 0 1px #000;
+}

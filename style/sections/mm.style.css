@@ -1,0 +1,239 @@
+.why-mm .heading {
+    position: relative;
+    width: 1050px;
+    margin-top: 60px;
+}
+
+.why-mm .mobile {
+    display: none;
+}
+
+.heading h2 {
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.heading h2 span {
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.heading .strokes {
+    position: absolute;
+    top: 50px;
+    right: 135px;
+}
+
+.heading .arrow {
+    position: absolute;
+    top: -5px;
+    right: 55px;
+}
+
+.why-mm .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.why-mm .content .content-col {
+    margin-top: 15px;
+}
+
+.why-mm .content .content-col p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    max-width: 730px;
+
+    color: var(--text-default);
+}
+
+.properties {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: var(--cyan-100);
+    border: 1px solid var(--cyan-200);
+    border-radius: 10px;
+
+    padding: 20px 15px;
+    width: fit-content;
+
+    column-gap: 15px;
+}
+
+.property {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    max-width: 145px;
+}
+
+.property:not(:first-child) {
+    padding-left: 15px;
+}
+
+.property:not(:first-child):before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 125px;
+    background-color: var(--cyan);
+}
+
+.property h6 {
+    margin-top: 15px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.property ul {
+    margin-top: 5px;
+}
+
+.property li {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.property li::before {
+    content: '•';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.contentBtnWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 410px;
+}
+
+.contentBtnWrapper button {
+    margin-top: 50px;
+    padding: 20px 60px;
+    height: unset;
+
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.priceButton {
+    background-color: var(--btn-secondary);
+    color: var(--text-default);
+    
+    margin-top: 20px !important;
+    padding: 10px 30px !important;
+
+    font-size: 15px !important;
+    text-align: center;
+}
+
+.priceButton span {
+    color: var(--text-primary);
+}
+
+.productImg {
+    margin-top: 25px;
+}
+
+.contentReview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 90px;
+
+    background-color: var(--cyan-100);
+    border: 1px solid var(--cyan-200);
+    border-radius: 110px;
+    padding: 5px 10px;
+}
+
+.buyerAvatarWrapper {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.buyerAvatarWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buyerAvatarWrapper {
+    margin-right: 15px;
+}
+
+.buyerContent p {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 17px !important;
+    color: #000;
+    max-width: 220px !important;
+}
+
+.buyerDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.stars svg:not(:first-child) {
+    margin-left: 1px;
+}
+
+.buyerName {
+    font-size: 12px;
+    list-style: 17px;
+    font-weight: 600;
+    color: var(--text-gray);
+    margin-left: 5px;
+}
+
+.verification {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.verification svg {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.verification h6 {
+    color: var(--text-primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
