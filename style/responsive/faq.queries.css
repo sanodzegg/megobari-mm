@@ -65,8 +65,14 @@
     }
 }
 
-@media screen and (max-width: 415px) {
-    /* .faq .heading h2 {
-        font-size: 7.229vw;
-    } */
+@media screen and (max-width: 430px) {
+    .faq .heading h2, .faq .heading span {
+        font-size: 30px !important;
+        line-height: 47px !important;
+    }
+    .faq .heading img {
+        top: 95px;
+        left: 23.786vw;
+        width: 140px;
+    }
 }

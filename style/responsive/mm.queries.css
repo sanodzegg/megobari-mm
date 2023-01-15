@@ -8,9 +8,6 @@
         width: auto;
         text-align: center;
     }
-    .why-mm .content .content-col p {
-        text-align: center;
-    }
     .heading .strokes, .heading .arrow {
         display: none;
     }
@@ -184,5 +181,8 @@
     }
     .contentReview .buyerAvatarWrapper {
         display: none;
+    }
+    .why-mm .content .content-col p {
+        text-align: center;
     }
 }

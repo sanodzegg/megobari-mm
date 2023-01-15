@@ -61,6 +61,8 @@
     }
     .sale *:not(div) {
         font-family: 'Gilroy';
+        font-size: 25px;
+        line-height: 31px;
     }
     .sale div h6 {
         display: none;
